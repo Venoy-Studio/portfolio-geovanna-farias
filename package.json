@@ -1,0 +1,19 @@
+{
+  "name": "geovanna-farias-portfolio",
+  "version": "1.0.0",
+  "description": "Clone exato e completo do portfólio de Geovanna Farias",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "social-media",
+    "filmmaker",
+    "video-editor",
+    "nextjs"
+  ],
+  "author": "Geovanna Farias",
+  "license": "ISC"
+}
