@@ -1,54 +1,43 @@
-# Portfólio Geovanna Farias (Clone 100% Fiel)
+﻿<div align="center">
+  <h1>💚 Portfólio Geovanna Farias — Filmmaker & Social Media</h1>
+  <p><strong>Portfólio interativo de alta performance para captação, edição de vídeo e gestão de redes sociais.</strong></p>
 
-Clone idêntico e completo do site [Geovanna Farias - Portfólio](https://geovanna-farias-portfolio.vercel.app/).
+  <p>
+    <a href="https://github.com/Venoy-Studio"><img src="https://img.shields.io/badge/Org-Venoy--Studio-00c853?style=for-the-badge&logo=github" alt="Venoy Studio" /></a>
+    <img src="https://img.shields.io/badge/GSAP-Animations-green?style=for-the-badge&logo=greensock" alt="GSAP" />
+    <img src="https://img.shields.io/badge/Lenis-Smooth_Scroll-black?style=for-the-badge" alt="Lenis" />
+    <img src="https://img.shields.io/badge/Node.js-Streaming-success?style=for-the-badge&logo=node.js" alt="Node" />
+  </p>
+</div>
 
 ---
+
+## 🌟 Sobre o Projeto
+
+O site da **Geovanna Farias** é uma referência em design interativo para profissionais de audiovisual: animações de rolagem suave (Lenis), integração nativa de vídeos em alta resolução e painel de demonstração de serviços.
+
+## ✨ Principais Destaques
+
+- **Showreel Interativo**: Player embutido com suporte a streaming HTTP 206 para reprodução instantânea de vídeos.
+- **Deck de Cards Inclinados**: Apresentação de cases com estética autoral e microinterações refinadas.
+- **Cursor Dinâmico**: Indicadores visuais táteis para ações de navegação (`play`, `ir`, `bora`).
 
 ## 🚀 Como Executar Localmente
 
-### Opção 1: Via Node.js / NPM (Recomendado)
-
-O projeto já inclui um servidor nativo ultrarrápido sem dependências externas:
-
 ```bash
-npm start
-```
-ou
-```bash
-npm run dev
-```
-ou diretamente:
-```bash
+git clone https://github.com/Venoy-Studio/portfolio-geovanna-farias.git
+cd portfolio-geovanna-farias
 node server.js
 ```
 
-O site estará acessível em:
-- **Portfólio**: [http://localhost:3000](http://localhost:3000)
-- **Painel Admin**: [http://localhost:3000/admin](http://localhost:3000/admin)
+Acesse [http://localhost:3000](http://localhost:3000).
+
+## 🔒 Dados e Privacidade
+
+> [!NOTE]
+> Todos os números de contato e redes foram substituídos por dados **fictícios** para fins de portfólio da **Venoy Studio**.
 
 ---
-
-## 📦 Estrutura dos Arquivos
-
-- `index.html`: Código HTML exato da página principal com os dados, fontes, scripts e estilização originais.
-- `admin/index.html`: Página administrativa original.
-- `_next/static/immutable/chunks/`: Todos os scripts JavaScript e folhas de estilo CSS originais (GSAP, Lenis Smooth Scroll, Turbopack, Framer Motion, cursores dinâmicos, etc.).
-- `_next/static/immutable/media/`: Todas as fontes tipográficas WOFF2 originais (Anybody, Instrument Sans, JetBrains Mono).
-- `media/`: Todos os vídeos em alta definição (`reel.mp4`, `social.mp4`, `edicao.mp4`, `captacao.mp4`) e seus respectivos pôsteres (`.jpg`).
-- `cached_images/`: Todas as imagens originais de alta resolução (Unsplash) armazenadas localmente para funcionamento 100% offline.
-- `server.js`: Servidor HTTP leve em Node.js com suporte a streaming de vídeo (HTTP 206 Partial Content Range), roteamento de rotas e processamento local de imagens do Next.js (`/_next/image`).
-- `icon.svg` & `opengraph-image`: Ícone SVG e imagem para compartilhamento em redes sociais.
-- `robots.txt`: Arquivo de diretrizes de rastreamento original.
-
----
-
-## 🎨 Recursos Clonavéis Preservados
-
-- **Tipografia e Cores Exatas**: Anybody, Instrument Sans e JetBrains Mono nas variáveis CSS originais (`--brand-bg: #0D0D0F`, etc.).
-- **Animações e Efeitos**: Lenis smooth scroll, GSAP, reveal animations e microinterações.
-- **Player de Vídeo e Showreel**: Botão interativo *"dar play no reel"* com modal e controles de vídeo.
-- **Deck Interativo**: Cards inclinados com animação e gravação no cabeçalho.
-- **Filtros de Projetos**: Abas interativas de filtragem (*todos*, *social media*, *edição de vídeo*, *filmmaker & foto*).
-- **Accordions de Serviços**: Toggles interativos *"o que tá incluso"* para cada um dos serviços.
-- **Cursor Personalizado**: Estados dinâmicos de cursor (`ir`, `play`, `bora`).
-- **Links Sociais e WhatsApp**: Links diretos com mensagens personalizadas.
+<div align="center">
+  <sub>Desenvolvido com excelência por <a href="https://github.com/Venoy-Studio">Venoy Studio</a> 💚</sub>
+</div>
